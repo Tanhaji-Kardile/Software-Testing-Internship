@@ -51,7 +51,7 @@ Test scenarios  Covered:
 ## Project Structure
 
 ```text
-MANUAL-03-OWASP-Juice-Shop-Security-Testing(Docker)
+Task-03-OWASP-Juice-Shop-Security-Testing(Docker)
 │
 ├── 01_Project_Introduction
 ├── 02_Review_&_Analyze_Requirements
