@@ -29,7 +29,7 @@ Test Scenarios Covered:
 Project Structure:
 
 ```text
-MANUAL-01-OrangeHRM-Login-Navigation-Testing
+Task-01-OrangeHRM-Login-Navigation-Testing
 │
 ├── 01_Project_Introduction
 ├── 02_Requirement_Analysis
@@ -104,7 +104,7 @@ MANUAL-01-OrangeHRM-Login-Navigation-Testing
 
 The OrangeHRM Login and Navigation Testing project was successfully completed by performing comprehensive manual testing and automation testing activities. The application requirements were analyzed, test scenarios and test cases were designed, and test execution was carried out to validate the functionality of the Login, Forgot Password, Leave Management, Dashboard, and Navigation modules.
 
-Manual testing helped identify and document defects, verify business requirements, and ensure proper application behavior. Requirement Traceability Matrix (RTM), Bug Reports, Test Execution Reports, and Test Closure Reports were prepared to maintain complete test documentation.
+Software testing helped identify and document defects, verify business requirements, and ensure proper application behavior. Requirement Traceability Matrix (RTM), Bug Reports, Test Execution Reports, and Test Closure Reports were prepared to maintain complete test documentation.
 
 An automation framework was developed using Selenium WebDriver, Java, TestNG, Maven, and the Page Object Model (POM) design pattern. Automated test scripts improved test execution efficiency, reusability, maintainability, and reporting capabilities through TestNG and Extent Reports.
 
