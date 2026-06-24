@@ -1,0 +1,28 @@
+	<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	
+	<suite name="OWASP Security Test Suite" verbose="1">
+	
+	    <!-- Listener -->
+	    <listeners>
+	        <listener class-name="listeners.TestListener"/>
+	    </listeners>
+	
+	    <!-- Test Block -->
+	    <test name="Juice Shop Security Tests">
+	
+	        <classes>
+	
+	            <!-- Authentication Tests -->
+	            <class name="tests.Authentication_Test"/>
+	
+	            <!-- Injection Tests -->
+	            <class name="tests.SQLInjection_Test"/>
+	
+	            <!-- XSS Tests -->
+	            <class name="tests.XSS_Test"/>
+	
+	        </classes>
+	
+	    </test>
+	
+	</suite>

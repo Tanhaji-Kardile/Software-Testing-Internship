@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-20T20:59:43 IST" name="OWASP Security Test Suite" finished-at="2026-06-20T21:01:33 IST" duration-ms="109956">
+    <groups>
+    </groups>
+    <test started-at="2026-06-20T20:59:43 IST" name="Juice Shop Security Tests" finished-at="2026-06-20T21:01:33 IST" duration-ms="109956">
+      <class name="tests.Authentication_Test">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:43 IST" name="startReport" finished-at="2026-06-20T20:59:43 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:43 IST" name="setUp" finished-at="2026-06-20T20:59:47 IST" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:47 IST" name="testInvalidLoginAuthentication" data-provider="loginData" finished-at="2026-06-20T20:59:52 IST" duration-ms="4718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginAuthentication -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:52 IST" name="tearDown" finished-at="2026-06-20T20:59:52 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:52 IST" name="setUp" finished-at="2026-06-20T20:59:55 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T20:59:55 IST" name="testInvalidLoginAuthentication" data-provider="loginData" finished-at="2026-06-20T21:00:01 IST" duration-ms="6009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@juice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginAuthentication -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T21:00:01 IST" name="tearDown" finished-at="2026-06-20T21:00:01 IST" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T21:00:01 IST" name="setUp" finished-at="2026-06-20T21:00:04 IST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T21:00:04 IST" name="testInvalidLoginAuthentication" data-provider="loginData" finished-at="2026-06-20T21:00:23 IST" duration-ms="19252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginAuthentication -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T21:00:23 IST" name="tearDown" finished-at="2026-06-20T21:00:23 IST" duration-ms="435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvalidLoginAuthentication(java.lang.String,java.lang.String)[pri:0, instance:tests.Authentication_Test@c0c2f8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.Authentication_Test@c0c2f8d]" started-at="2026-06-20T21:01:33 IST" name="endReport" finished-at="2026-06-20T21:01:34 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.Authentication_Test -->
+      <class name="tests.SQLInjection_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:23 IST" name="setUp" finished-at="2026-06-20T21:00:26 IST" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:26 IST" name="testSQLInjection" data-provider="sqlData" finished-at="2026-06-20T21:00:31 IST" duration-ms="4677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQLInjection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:31 IST" name="tearDown" finished-at="2026-06-20T21:00:31 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:31 IST" name="setUp" finished-at="2026-06-20T21:00:34 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:34 IST" name="testSQLInjection" data-provider="sqlData" finished-at="2026-06-20T21:00:39 IST" duration-ms="4674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[" OR "1"="1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQLInjection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:39 IST" name="tearDown" finished-at="2026-06-20T21:00:39 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:39 IST" name="setUp" finished-at="2026-06-20T21:00:42 IST" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:42 IST" name="testSQLInjection" data-provider="sqlData" finished-at="2026-06-20T21:00:47 IST" duration-ms="4675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin'--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQLInjection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:47 IST" name="tearDown" finished-at="2026-06-20T21:00:47 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:47 IST" name="setUp" finished-at="2026-06-20T21:00:49 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:49 IST" name="testSQLInjection" data-provider="sqlData" finished-at="2026-06-20T21:00:54 IST" duration-ms="4843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQLInjection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:54 IST" name="tearDown" finished-at="2026-06-20T21:00:55 IST" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:55 IST" name="setUp" finished-at="2026-06-20T21:00:58 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:00:58 IST" name="testSQLInjection" data-provider="sqlData" finished-at="2026-06-20T21:01:02 IST" duration-ms="4759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1' #]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQLInjection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SQLInjection_Test@17f7cd29]" started-at="2026-06-20T21:01:02 IST" name="tearDown" finished-at="2026-06-20T21:01:03 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang.String)[pri:0, instance:tests.SQLInjection_Test@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SQLInjection_Test -->
+      <class name="tests.XSS_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:03 IST" name="setUp" finished-at="2026-06-20T21:01:06 IST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:06 IST" name="testStoredXSS" data-provider="xssData" finished-at="2026-06-20T21:01:10 IST" duration-ms="4366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<script>alert(1)</script>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoredXSS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:10 IST" name="tearDown" finished-at="2026-06-20T21:01:10 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:10 IST" name="setUp" finished-at="2026-06-20T21:01:13 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:13 IST" name="testStoredXSS" data-provider="xssData" finished-at="2026-06-20T21:01:18 IST" duration-ms="4618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<img src=x onerror=alert(1)>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoredXSS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:18 IST" name="tearDown" finished-at="2026-06-20T21:01:18 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:18 IST" name="setUp" finished-at="2026-06-20T21:01:21 IST" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:21 IST" name="testStoredXSS" data-provider="xssData" finished-at="2026-06-20T21:01:25 IST" duration-ms="4435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<svg onload=alert(1)>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoredXSS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:25 IST" name="tearDown" finished-at="2026-06-20T21:01:25 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:25 IST" name="setUp" finished-at="2026-06-20T21:01:28 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:28 IST" name="testStoredXSS" data-provider="xssData" finished-at="2026-06-20T21:01:33 IST" duration-ms="4378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<body onload=alert('XSS')>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoredXSS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.XSS_Test@7d8704ef]" started-at="2026-06-20T21:01:33 IST" name="tearDown" finished-at="2026-06-20T21:01:33 IST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0, instance:tests.XSS_Test@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.XSS_Test -->
+    </test> <!-- Juice Shop Security Tests -->
+  </suite> <!-- OWASP Security Test Suite -->
+</testng-results>

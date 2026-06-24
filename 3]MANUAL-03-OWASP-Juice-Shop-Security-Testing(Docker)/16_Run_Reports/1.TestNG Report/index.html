@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OWASP_Security_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">OWASP Security Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspace\juice-shop-security\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OWASP_Security_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OWASP_Security_Test_Suite" class="hide-methods passed suite-OWASP_Security_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-OWASP_Security_Test_Suite -->
+                      <a href="#" panel-name="suite-OWASP_Security_Test_Suite" class="show-methods passed suite-OWASP_Security_Test_Suite"> (show)</a> <!-- show-methods passed suite-OWASP_Security_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-OWASP_Security_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.Authentication_Test" class="method navigator-link" hash-for-method="testInvalidLoginAuthentication(admin@juice.com, admin123)">testInvalidLoginAuthentication(admin@juice.com, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.Authentication_Test" class="method navigator-link" hash-for-method="testInvalidLoginAuthentication(invalid@user.com, wrongpass)">testInvalidLoginAuthentication(invalid@user.com, wrongpass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.Authentication_Test" class="method navigator-link" hash-for-method="testInvalidLoginAuthentication(test@test.com, Test@123)">testInvalidLoginAuthentication(test@test.com, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.SQLInjection_Test" class="method navigator-link" hash-for-method="testSQLInjection(&#039; OR &#039;1&#039;=&#039;1)">testSQLInjection(' OR '1'='1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.SQLInjection_Test" class="method navigator-link" hash-for-method="testSQLInjection(&quot; OR &quot;1&quot;=&quot;1)">testSQLInjection(" OR "1"="1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.SQLInjection_Test" class="method navigator-link" hash-for-method="testSQLInjection(&#039; OR &#039;1&#039;=&#039;1&#039; #)">testSQLInjection(' OR '1'='1' #)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.SQLInjection_Test" class="method navigator-link" hash-for-method="testSQLInjection(admin&#039;--)">testSQLInjection(admin'--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.SQLInjection_Test" class="method navigator-link" hash-for-method="testSQLInjection(&#039; OR 1=1--)">testSQLInjection(' OR 1=1--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.XSS_Test" class="method navigator-link" hash-for-method="testStoredXSS(&lt;body onload=alert(&#039;XSS&#039;)&gt;)">testStoredXSS(<body onload=alert('XSS')>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.XSS_Test" class="method navigator-link" hash-for-method="testStoredXSS(&lt;script&gt;alert(1)&lt;/script&gt;)">testStoredXSS(<script>alert(1)</script>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.XSS_Test" class="method navigator-link" hash-for-method="testStoredXSS(&lt;svg onload=alert(1)&gt;)">testStoredXSS(<svg onload=alert(1)>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OWASP_Security_Test_Suite" title="tests.XSS_Test" class="method navigator-link" hash-for-method="testStoredXSS(&lt;img src=x onerror=alert(1)&gt;)">testStoredXSS(<img src=x onerror=alert(1)>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OWASP_Security_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OWASP_Security_Test_Suite" class="panel OWASP_Security_Test_Suite">
+          <div class="suite-OWASP_Security_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Authentication_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginAuthentication(admin@juice.com, admin123)">
+                  </a> <!-- testInvalidLoginAuthentication(admin@juice.com, admin123) -->
+                  <span class="method-name">testInvalidLoginAuthentication</span>
+                  <span class="parameters">(admin@juice.com,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginAuthentication(invalid@user.com, wrongpass)">
+                  </a> <!-- testInvalidLoginAuthentication(invalid@user.com, wrongpass) -->
+                  <span class="method-name">testInvalidLoginAuthentication</span>
+                  <span class="parameters">(invalid@user.com,wrongpass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginAuthentication(test@test.com, Test@123)">
+                  </a> <!-- testInvalidLoginAuthentication(test@test.com, Test@123) -->
+                  <span class="method-name">testInvalidLoginAuthentication</span>
+                  <span class="parameters">(test@test.com,Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OWASP_Security_Test_Suite-class-passed -->
+          <div class="suite-OWASP_Security_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SQLInjection_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSQLInjection(&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testSQLInjection(' OR '1'='1) -->
+                  <span class="method-name">testSQLInjection</span>
+                  <span class="parameters">(' OR '1'='1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSQLInjection(&quot; OR &quot;1&quot;=&quot;1)">
+                  </a> <!-- testSQLInjection(" OR "1"="1) -->
+                  <span class="method-name">testSQLInjection</span>
+                  <span class="parameters">(" OR "1"="1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSQLInjection(&#039; OR &#039;1&#039;=&#039;1&#039; #)">
+                  </a> <!-- testSQLInjection(' OR '1'='1' #) -->
+                  <span class="method-name">testSQLInjection</span>
+                  <span class="parameters">(' OR '1'='1' #)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSQLInjection(admin&#039;--)">
+                  </a> <!-- testSQLInjection(admin'-) -->
+                  <span class="method-name">testSQLInjection</span>
+                  <span class="parameters">(admin'--)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSQLInjection(&#039; OR 1=1--)">
+                  </a> <!-- testSQLInjection(' OR 1=1-) -->
+                  <span class="method-name">testSQLInjection</span>
+                  <span class="parameters">(' OR 1=1--)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OWASP_Security_Test_Suite-class-passed -->
+          <div class="suite-OWASP_Security_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.XSS_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoredXSS(&lt;body onload=alert(&#039;XSS&#039;)&gt;)">
+                  </a> <!-- testStoredXSS(<body onload=alert('XSS')>) -->
+                  <span class="method-name">testStoredXSS</span>
+                  <span class="parameters">(<body onload=alert('XSS')>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoredXSS(&lt;script&gt;alert(1)&lt;/script&gt;)">
+                  </a> <!-- testStoredXSS(<script>alert(1)</script>) -->
+                  <span class="method-name">testStoredXSS</span>
+                  <span class="parameters">(<script>alert(1)</script>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoredXSS(&lt;svg onload=alert(1)&gt;)">
+                  </a> <!-- testStoredXSS(<svg onload=alert(1)>) -->
+                  <span class="method-name">testStoredXSS</span>
+                  <span class="parameters">(<svg onload=alert(1)>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoredXSS(&lt;img src=x onerror=alert(1)&gt;)">
+                  </a> <!-- testStoredXSS(<img src=x onerror=alert(1)>) -->
+                  <span class="method-name">testStoredXSS</span>
+                  <span class="parameters">(<img src=x onerror=alert(1)>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OWASP_Security_Test_Suite-class-passed -->
+        </div> <!-- panel OWASP_Security_Test_Suite -->
+        <div panel-name="test-xml-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\juice-shop-security\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OWASP Security Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Juice Shop Security Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Authentication_Test&quot;/&gt;
+      &lt;class name=&quot;tests.SQLInjection_Test&quot;/&gt;
+      &lt;class name=&quot;tests.XSS_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Juice Shop Security Tests --&gt;
+&lt;/suite&gt; &lt;!-- OWASP Security Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OWASP Security Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Juice Shop Security Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OWASP Security Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OWASP Security Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OWASP_Security_Test_Suite');
+function tableData_OWASP_Security_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testInvalidLoginAuthentication')
+data.setCell(0, 2, 'tests.Authentication_Test')
+data.setCell(0, 3, 19252);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testInvalidLoginAuthentication')
+data.setCell(1, 2, 'tests.Authentication_Test')
+data.setCell(1, 3, 6009);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSQLInjection')
+data.setCell(2, 2, 'tests.SQLInjection_Test')
+data.setCell(2, 3, 4843);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSQLInjection')
+data.setCell(3, 2, 'tests.SQLInjection_Test')
+data.setCell(3, 3, 4759);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testInvalidLoginAuthentication')
+data.setCell(4, 2, 'tests.Authentication_Test')
+data.setCell(4, 3, 4718);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSQLInjection')
+data.setCell(5, 2, 'tests.SQLInjection_Test')
+data.setCell(5, 3, 4677);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSQLInjection')
+data.setCell(6, 2, 'tests.SQLInjection_Test')
+data.setCell(6, 3, 4675);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSQLInjection')
+data.setCell(7, 2, 'tests.SQLInjection_Test')
+data.setCell(7, 3, 4674);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testStoredXSS')
+data.setCell(8, 2, 'tests.XSS_Test')
+data.setCell(8, 3, 4618);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testStoredXSS')
+data.setCell(9, 2, 'tests.XSS_Test')
+data.setCell(9, 3, 4435);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testStoredXSS')
+data.setCell(10, 2, 'tests.XSS_Test')
+data.setCell(10, 3, 4378);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testStoredXSS')
+data.setCell(11, 2, 'tests.XSS_Test')
+data.setCell(11, 3, 4366);
+window.suiteTableData['OWASP_Security_Test_Suite']= { tableData: data, tableDiv: 'times-div-OWASP_Security_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-OWASP_Security_Test_Suite">
+              </div> <!-- times-div-OWASP_Security_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OWASP Security Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SQLInjection_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.XSS_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OWASP_Security_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Authentication_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginAuthentication(test@test.com, Test@123)</span>
+                <span class="method-start">4382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvali...)</span>
+                <span class="method-start">9108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginAuthentication(admin@juice.com, admin123)</span>
+                <span class="method-start">12298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvali...)</span>
+                <span class="method-start">18310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginAuthentication(invalid@user.com, wrongpass)</span>
+                <span class="method-start">21277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testInvalidLoginAuthentication status=SUCCESS method=Authentication_Test.testInvali...)</span>
+                <span class="method-start">40537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SQLInjection_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSQLInjection(' OR '1'='1)</span>
+                <span class="method-start">43954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang...)</span>
+                <span class="method-start">48634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSQLInjection(" OR "1"="1)</span>
+                <span class="method-start">51727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang...)</span>
+                <span class="method-start">56405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSQLInjection(admin'--)</span>
+                <span class="method-start">59372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang...)</span>
+                <span class="method-start">64053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSQLInjection(' OR 1=1--)</span>
+                <span class="method-start">66950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang...)</span>
+                <span class="method-start">71796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSQLInjection(' OR '1'='1' #)</span>
+                <span class="method-start">75206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSQLInjection status=SUCCESS method=SQLInjection_Test.testSQLInjection(java.lang...)</span>
+                <span class="method-start">79969 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.XSS_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStoredXSS(<script>alert(1)</script>)</span>
+                <span class="method-start">83052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">87431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStoredXSS(<img src=x onerror=alert(1)>)</span>
+                <span class="method-start">90470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">95091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStoredXSS(<svg onload=alert(1)>)</span>
+                <span class="method-start">98176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">102615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">102944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStoredXSS(<body onload=alert('XSS')>)</span>
+                <span class="method-start">105806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testStoredXSS status=SUCCESS method=XSS_Test.testStoredXSS(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">110190 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Authentication_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">110545 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
