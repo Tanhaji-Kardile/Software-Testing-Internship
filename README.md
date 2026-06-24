@@ -1,8 +1,8 @@
-# Manual Testing Internship Projects
+# Software Testing Internship Projects
 
 ## Overview
 
-This repository contains all Manual Testing projects completed as part of a QA Testing Internship. The projects cover Functional Testing, API Testing, Security Testing, and Performance Testing using industry-standard testing methodologies and tools.
+This repository contains all Software  Testing projects completed as part of a QA Testing Internship. The projects cover Functional Testing, API Testing, Security Testing, and Performance Testing using industry-standard testing methodologies and tools.
 
 ## Projects Included
 
@@ -38,15 +38,15 @@ This repository contains all Manual Testing projects completed as part of a QA T
 
 ## Repository Structure
 ```text
-Manual-Testing-Internship
+Software -Testing-Internship
 │
-├── MANUAL-01-OrangeHRM-Login-Navigation-Testing
+├── Task-01-OrangeHRM-Login-Navigation-Testing
 │
-├── MANUAL-02-ReqRes_API_Testing_Postman
+├── Task-02-ReqRes_API_Testing_Postman
 │
-├── MANUAL-03-OWASP-Juice-Shop-Security-Testing-Docker
+├── Task-03-OWASP-Juice-Shop-Security-Testing-Docker
 │
-├── MANUAL-04-BlazeDemoFlightBooking_LoadTesting_Gatling
+├── Task-04-BlazeDemoFlightBooking_LoadTesting_Gatling
 │
 └── README.md
 ```
@@ -74,7 +74,7 @@ Manual-Testing-Internship
 
 ## Key Skills Demonstrated
 
-* Manual Testing
+* Software Testing
 * Functional Testing
 * API Testing
 * Security Testing
